@@ -1,0 +1,47 @@
+.location {
+	display: flex;
+	min-height: 600px;
+	justify-content: space-evenly;
+	overflow: hidden;
+}
+.location-map {	
+	overflow: hidden;
+	flex: 1 1 0;
+	width: fit-content;
+	height: 600px;
+}
+.location-map iframe {
+	height: 600px;
+	width: 100%;
+}
+.location-body {
+	flex: 1 1 0;
+	margin-top: 190px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.location-title {
+	width: fit-content;
+	position: relative;
+}
+.location-title::after {
+	position: absolute !important;
+	content: attr(data-title);
+	color: transparent;
+	top: -105% !important;
+	left: 47% !important;
+}
+.location-button {
+	padding: 0;
+}
+.location-title:not(:last-child) {
+	margin-bottom: 14px;
+}
+.location-description {
+max-width: clamp(16.25rem, 13.555rem + 14.37vw, 30.625rem);
+	text-align: center;
+}
+.location-description:not(:last-child) {
+	margin-bottom: 37px;
+}

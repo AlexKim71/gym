@@ -1,0 +1,307 @@
+@media (max-width: 1919px) {
+	.motivation-item:nth-child(odd) .motivation-card .motivation-card-image {
+		margin-block: -20px;
+	}
+	.motivation-item {
+		padding-inline: 35px;
+	}
+	.training-types-list {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.training-types {
+		padding: 70px 0px;
+	}
+	.location-body {
+		padding-right: 40px;
+	}
+}
+
+
+
+@media (max-width: 1400px) {
+	.calculate-inner {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		row-gap: 120px;
+	}
+}
+
+
+
+
+@media (max-width: 1280px) {
+	.training-types-list {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.join-us-form-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 23px;
+		padding-inline: 10px;
+	}
+	.swiper-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+  }
+	.banner-body {
+		margin-bottom: 120px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+	.motivation-card-image picture img {
+		display: block;
+		width: 110%;
+		height: auto;
+    margin-left: -7%;
+	}
+	.motivation-card-image {
+		width: fit-content;
+		margin: 0 auto;
+	}
+	.motivation-card {
+		padding-block: 50px;
+	}
+	.motivation-item:nth-child(odd) .motivation-card .motivation-card-image {
+		margin-block: 0;
+	}
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+	.banner-pagination {
+		margin-right: 0;
+	}
+	.banner {
+		padding-inline: 15px;
+	}
+	.show {
+		display: inline-flex;
+	}
+	
+	.banner-info::before {
+		margin-right: 28px;
+		margin-left: 9px;
+	}
+	.calculate-table :is(td, th) {
+    padding-block: 10px;
+  }
+
+  .calculate-table tfoot td {
+    padding-top: 10px;
+  }
+
+  .calculate-button {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 884px) {
+	.calculate-inner {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+	.calculate-button {
+		margin: 0 100px;
+		width: 50%;
+	}
+  .calculate-table-wrapper::before {
+    display: none;
+  }
+
+  .calculate {
+    padding-block: 60px;
+  }
+	.training-types-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.location {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+	}
+	.location-body {
+		margin: 30px 0px 30px 0px;
+	}
+	.location-map {
+		height: 600px;
+		width: 100%;
+	}
+	.header-menu-list {
+		display: none;
+	}
+	.show {
+		display: flex !important;
+	}
+	.header-logo {
+		padding-top: 4px;
+	}
+	.header {
+		height: 90px;
+		justify-content: center;
+		align-items: center;
+		column-gap: 6.25vw;
+	}
+	.header-actions {
+		display: flex;
+		flex-direction: row-reverse; /* Инвертирует порядок */
+		column-gap: 13.02vw;
+	}
+	.header-book-button {
+		display: none;
+	}
+	.motivation-card,
+	.motivation-item:nth-child(even) .motivation-card {
+		flex-direction: column-reverse;
+	}
+	.motivation-card:nth-child(even) {
+		flex-direction: column-reverse;
+	}
+	.motivation-card-image {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	.motivation-card {
+		padding-block: 30px;
+	}
+	.motivation-card-image {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	.motivation-card {
+		padding-inline: 0px;
+	}
+	.motivation-item:nth-child(odd) .motivation-card .motivation-card-image {
+		margin-bottom: 40px;
+	}
+	.location-body {
+		padding-right: 0px;
+	}
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+	.calculate-title,
+	.calculate-description {
+		margin-inline: auto;
+		text-align: center;
+	}
+	.calculate {
+		padding-block: 30px !important;
+	}
+	.padding-block {
+		margin-top: 0px;
+	}
+	.calculate-form-body {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr) !important;
+		grid-auto-rows: 54px;
+	}
+	.training-types-list {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.location-body {
+		padding-right: 0px;
+	}
+	.location-map {
+		height: 24vh;
+	}
+	.footer-header {
+		display: flex;
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.footer-main {
+		margin-block: -71px;
+	}
+	.footer-copyright {
+		max-width: 635px;
+	}
+}
+
+
+
+
+@media (max-width: 430px) {
+	.calculate-table :is(td, th) {
+		padding-right: 0px !important;
+	}
+	th, td {
+		text-align: center;
+	}
+	tfoot  {
+		max-width: 50px !important;
+	}
+}
+
+
+
+
+
+
+
+@media (max-width: 410px) {
+	.join-us-form-body {
+		padding-inline: 5px;
+	}
+	
+	.header {
+		column-gap: 26px;
+	}
+	.header-menu-list {
+		display: none;
+	}
+	.show {
+		display: flex;
+	}
+	.location-body {
+		text-align: center;
+	}
+	.location-body {
+		padding-right: 0px;
+	}
+	.calculate-form-body .calculate-input {
+		width: 265px;
+		margin: 0 auto;
+	}
+	.calculate-description {
+		width: 200px;
+	}
+}

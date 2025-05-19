@@ -1,0 +1,37 @@
+.training-types {
+	position: relative;
+	padding: 70px 76px 120px, 76px;
+	background-color: var(--color-dark);
+	min-height: 494px;
+	overflow: hidden;
+}
+
+.training-types-list {
+	display: grid;
+	margin-inline: auto;
+	grid-template-columns: repeat(6, 1fr);
+	column-gap: 160px;
+	row-gap: 0px;
+}
+.training-types-item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 32px;
+	padding-top: 80px;
+}
+.training-types-item::before {
+	position: absolute;
+	top: 2%;
+	right: -42%;
+	content: '';
+	width: 80px;
+	aspect-ratio: 1;
+	background: url('/source/images/arrow-top.svg') center / contain no-repeat;
+}
+.training-types-item-title {
+	margin: 0;
+}
+
+

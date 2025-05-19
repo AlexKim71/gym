@@ -1,0 +1,99 @@
+.footer {
+}
+.footer-main {
+	padding: 140px 0px 160px 0px;
+}
+.footer-main-inner {
+
+}
+.footer-header {
+	display: flex;
+	column-gap: clamp(0.75rem, -0.366rem + 3.57vw, 3.875rem);
+}
+.footer-logo {
+
+}
+.footer-logo-image {
+  height: auto;
+}
+.footer-description {
+	max-width: 916px;
+	text-align: start;
+}
+.footer-body {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(clamp(12.5rem, 11.209rem + 6.46vw, 18.875rem), auto));
+	grid-gap: 30px 30px;
+	margin-top: 63px;
+}
+.footer-column-title + div,
+.footer-column-title + address {
+	text-align: left;
+	padding-bottom: 30px;
+}
+.footer-body > .footer-column:last-child > h2::after {
+  content: '';
+	display: inline-block;
+	height: 0.74em;
+  aspect-ratio: 1;
+  margin-left: 0.5em;
+	background: url('/source/icons/Vector.svg') center/contain no-repeat;
+	scale: -1 -1;
+}
+.footer-column-title {
+}
+.footer-about {
+}
+.footer-schedule {
+}
+.footer-address {
+}
+.footer-contacts {
+}
+.footer-contacts-list {
+}
+.footer-contacts-item {
+}
+.footer-contacts-link {
+}
+.has-arrow {
+}
+.footer-subscribe {
+	position: relative;
+}
+.visually-hidden {
+}
+.subscribe-email {
+}
+.footer-subscribe-button {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	aspect-ratio: 1;
+	height: 100%;
+	border: var(--border);
+	border-radius: 50%;
+	background: url('/source/icons/arrow.svg') center/ contain no-repeat;
+}
+.footer-soc1als {
+}
+.footer-soc1als-list {
+	display: flex;
+	justify-content: start;
+	column-gap: 33px;
+	margin-top: 50px;
+}
+.footer-soc1als-link:hover svg path {
+  fill: var(--color-light-gray); /* Оранжевый цвет при наведении */
+  transition: var(--transition-duration); /* Плавное изменение */
+}
+.footer-extra {
+	padding-block: 15px;
+	background-color: var(--color-dark-alternate);
+}
+.footer-extra-inner {
+}
+.footer-copyright {
+}
